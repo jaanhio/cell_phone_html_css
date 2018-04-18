@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.phone-shell {
+  height: calc(138.3px * 4);
+  width: calc(67px * 4);
+  background-color: #F8F8F8;
+  border-radius: 35px;
+  border: 4px solid #D8DADB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  width: 4px;
+  height: 44px;
+  background-color: #D9DBDC;
+}
+
+.mute-button {
+  width: 3px;
+  height: 22px;
+  background-color: #D9DBDC;
+  position: relative;
+  top: -209px;
+  left: 9px;
+  border-radius: 21px;
+}
+
+#power {
+  position: relative;
+  top: -153px;
+}
+
+#vol-down {
+  position: relative;
+  top: -78px;
+}
+
+#vol-up {
+  position: relative;
+  top: -153px;
+  left: 4px;
+}
+
+
+/*---in shell design---*/
+
+.topgroup {
+  /* background-color: pink; */
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 307px;
+}
+
+.ircamera {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.camera {
+  background-color: black;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: relative;
+  left: 25%;
+  top: 8%;
+}
+
+.speaker {
+  background-color: black;
+  width: 42px;
+  height: 4px;
+  border-radius: 16%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.screen {
+  background-color: white;
+  width: 226px;
+  height: 397px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.bottomgroup {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 292px;
+  border-radius: 50%;
+  border: 2px solid #8E9091;
+}
